@@ -1,0 +1,9 @@
+.container {
+  height: 680px;
+  width: 1440px;
+  background-image: url("../../images/background/footer1.webp");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 0 auto;
+  padding: 130px 640px 350px 300px;
+}

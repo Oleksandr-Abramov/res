@@ -1,5 +1,7 @@
 :root {
   --background: #ffffff;
+  --primary-title-dark: rgb(34, 34, 34);
+  --primary-title-white: rgb(210, 210, 210);
 }
 
 * {
@@ -11,13 +13,12 @@
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--primary-title);
+  /* overflow-x: hidden; */
+  color: var(--primary-title-white);
   background-color: var(--background);
-  font-family: /*"Inter", "Montserrat", "Open Sans", */ sans-serif;
+  /* font-family: "Inter", "Montserrat", "Open Sans", sans-serif; */
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
   box-sizing: border-box;
   margin: 0;
 }
