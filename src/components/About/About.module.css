@@ -5,6 +5,7 @@
   background-image: url("../../images/background/first-section.webp");
   margin: 0 auto;
   padding: 30px 20px 30px 330px;
+  z-index: 10;
 }
 
 .articleWrapper {
@@ -19,4 +20,11 @@
   padding-right: 30px;
   top: 50px;
   left: 350px;
+}
+
+.cat {
+  position: absolute;
+  top: 177px;
+  left: 60px;
+  /* z-index: 0; */
 }

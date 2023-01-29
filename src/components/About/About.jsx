@@ -1,4 +1,6 @@
+import Image from "next/image";
 import s from "./About.module.css";
+import cat from "../../images/cats/cat-sit.gif";
 
 const About = () => {
   return (
@@ -17,6 +19,7 @@ const About = () => {
           aspernatur labore delectus iste? Deserunt?
         </p>
       </article>
+      <Image src={cat} alt="cat" className={s.cat} />
     </section>
   );
 };

@@ -1,4 +1,7 @@
 .container {
+  /* position: sticky;
+  top: -100px; */
+  z-index: 1;
   height: 254px;
   width: 1040px;
   background-image: url("../../images/background/header.webp");
