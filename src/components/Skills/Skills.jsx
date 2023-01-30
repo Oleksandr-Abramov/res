@@ -1,6 +1,8 @@
 import s from "./Skills.module.css";
 import Image from "next/image";
-import cat from "../../images/cats/cat-down.gif";
+import cat from "../../images/cats/cat-on-table.gif";
+import h from "../../images/window/rigel-h.webp";
+import v from "../../images/window/rigel-v.webp";
 
 const Skills = () => {
   return (
@@ -18,6 +20,8 @@ const Skills = () => {
         </p>
       </article>
       <Image src={cat} alt="cat" className={s.cat} />
+      <Image src={v} alt="cat" className={s.v} />
+      <Image src={h} alt="cat" className={s.h} />
     </section>
   );
 };

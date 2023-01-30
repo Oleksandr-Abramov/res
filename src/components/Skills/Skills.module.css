@@ -2,9 +2,9 @@
   position: relative;
   height: 386px;
   width: 978px;
-  background-image: url("../../images/background/left-section.webp");
+  background-image: url("../../images/background/left-section-double-window1.webp");
   margin: 0 auto;
-  padding: 95px 340px 20px 50px;
+  padding: 95px 500px 20px 50px;
 }
 
 .articleWrapper {
@@ -16,14 +16,26 @@
 
 .article {
   position: absolute;
-  padding-right: 350px;
+  padding-right: 450px;
   top: 120px;
   left: 80px;
 }
 
 .cat {
   position: absolute;
-  top: 177px;
-  left: 60px;
+  top: 207px;
+  left: 572px;
   /* z-index: 0; */
+}
+
+.h {
+  position: absolute;
+  top: 253px;
+  left: 571px;
+}
+
+.v {
+  position: absolute;
+  top: 180px;
+  left: 720px;
 }
