@@ -1,7 +1,31 @@
 .container {
+  position: relative;
   height: 386px;
   width: 978px;
   background-image: url("../../images/background/right-section.webp");
   margin: 0 auto;
   padding: 95px 50px 20px 340px;
+}
+
+.articleWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #94312ce0;
+  filter: blur(15px);
+}
+
+.article {
+  position: absolute;
+  padding-right: 30px;
+  top: 100px;
+  left: 350px;
+}
+
+.cat {
+  position: absolute;
+  top: 303px;
+  left: 56px;
+  width: 164px;
+  height: 113px;
+  /* z-index: 0; */
 }
