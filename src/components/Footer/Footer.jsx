@@ -1,4 +1,6 @@
 import s from "./Footer.module.css";
+import Image from "next/image";
+import mouse from "../../images/cats/mouse.gif";
 
 const Footer = () => {
   return (
@@ -10,9 +12,8 @@ const Footer = () => {
         magni doloremque mollitia, eveniet facilis et quibusdam inventore, deleniti tenetur corrupti quis ipsam sit
         autem qui, veniam adipisci facere id modi rerum consequuntur omnis? Sequi natus rerum eligendi sed aliquid totam
         neque eius quos perspiciatis et magni fugit officiis veritatis, iusto explicabo, numquam magnam, qui quo.
-        Necessitatibus quod quas perspiciatis debitis saepe molestiae, perferendis neque vel eveniet quia modi ut
-        repudiandae obcaecati dignissimos cupiditate consectetur pariatur eaque. Architecto!
       </p>
+      <Image src={mouse} alt="cat" className={s.mouse} />
     </footer>
   );
 };

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import s from "./Header.module.css";
+import Image from "next/image";
+import bird from "../../images/cats/bird.gif";
 
 const Header = () => {
   return (
@@ -20,6 +22,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <Image src={bird} alt="cat" className={s.bird} />
     </header>
   );
 };

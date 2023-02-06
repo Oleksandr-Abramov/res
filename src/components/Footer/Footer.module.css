@@ -1,4 +1,5 @@
 .container {
+  position: relative;
   height: 680px;
   width: 1440px;
   background-image: url("../../images/background/footer1.webp");
@@ -6,4 +7,25 @@
   background-position: right;
   margin: 0 auto;
   padding: 130px 640px 350px 300px;
+}
+
+.articleWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #94312ce0;
+  filter: blur(15px);
+}
+
+.article {
+  position: absolute;
+  padding-right: 30px;
+  top: 50px;
+  left: 350px;
+}
+
+.mouse {
+  position: absolute;
+  top: 269px;
+  left: 658px;
+  /* z-index: 0; */
 }
