@@ -4,7 +4,16 @@
   width: 978px;
   background-image: url("../../images/background/left-section-double-window1.webp");
   margin: 0 auto;
-  padding: 95px 500px 20px 50px;
+  padding: 122px 499px 10px 54px;
+}
+
+.container > h2 {
+  position: absolute;
+  top: 100px;
+  right: 205px;
+  color: var(--primary-title-dark);
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .articleWrapper {
@@ -16,9 +25,15 @@
 
 .article {
   position: absolute;
-  padding-right: 450px;
-  top: 120px;
-  left: 80px;
+  padding: 10px;
+  width: 450px;
+  top: 112px;
+  left: 53px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2), 0 16px 28px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
 }
 
 .cat {
@@ -38,4 +53,17 @@
   position: absolute;
   top: 180px;
   left: 720px;
+}
+
+.hardSkills {
+  width: 213px;
+}
+.hardSkills > p {
+  margin-bottom: 10px;
+}
+
+.iconTools {
+  width: 15px;
+  height: 15px;
+  margin-right: 7px;
 }

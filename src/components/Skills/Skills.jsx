@@ -3,21 +3,89 @@ import Image from "next/image";
 import cat from "../../images/cats/cat-on-table.gif";
 import h from "../../images/window/rigel-h.webp";
 import v from "../../images/window/rigel-v.webp";
+import { tools, paw } from "../../images/icons";
+console.log("paw", paw);
+// import { paw, tools } from "../../images/icons/icons";
 
 const Skills = () => {
   return (
     <section className={s.container} id="skills">
-      <div className={s.articleWrapper}></div>
+      <h2>MY SKILLS</h2>
+
       <article className={s.article}>
-        <p>skills</p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, quae? Quae adipisci illo similique earum vel
-          excepturi, veniam illum repellendus, voluptates labore ea eum odit? Quo et eveniet animi neque blanditiis
-          expedita. Iste, a modi cupiditate nobis veritatis magnam explicabo commodi magni reprehenderit! Magnam non
-          mollitia fugit, ad, dolor quod cumque alias perferendis sequi, veniam nemo enim aliquid quisquam vero nobis
-          similique saepe cupiditate. Modi rem aut maxime necessitatibus, rerum nisi dolorum blanditiis quidem similique
-          mollitia, adipisci dignissimos repellendus.
-        </p>
+        <div className={s.hardSkills}>
+          {/* <div className={s.articleWrapper}></div> */}
+          <p>TECH SKILLS:</p>
+          <ul>
+            <li>
+              <Image src={tools} alt="icon" className={s.iconTools} />
+              HTML5, CSS3, SASS{" "}
+            </li>
+            <li>
+              <Image src={tools} alt="icon" className={s.iconTools} />
+              Responsive Adaptive
+            </li>
+            <li>
+              <Image src={tools} alt="icon" className={s.iconTools} />
+              GIT / GitHub
+            </li>
+            <li>
+              <Image src={tools} alt="icon" className={s.iconTools} />
+              JavaScript
+            </li>
+            <li>
+              <Image src={tools} alt="icon" className={s.iconTools} />
+              React, Next.js
+            </li>
+            <li>
+              <Image src={tools} alt="icon" className={s.iconTools} />
+              Redux / Redux Toolkit
+            </li>
+            <li>
+              <Image src={tools} alt="icon" className={s.iconTools} />
+              REST API
+            </li>
+            <li>
+              <Image src={tools} alt="icon" className={s.iconTools} />
+              Node.js, Express
+            </li>
+            <li>
+              <Image src={tools} alt="icon" className={s.iconTools} />
+              MongoDB, Mongoose
+            </li>
+            <li>
+              <Image src={tools} alt="icon" className={s.iconTools} />
+              WebSockets, Figma
+            </li>
+          </ul>
+        </div>
+        <div className={s.hardSkills}>
+          {/* <div className={s.articleWrapper}></div> */}
+          <p>SOFT SKILLS:</p>
+          <ul>
+            <li>
+              <Image src={paw} alt="icon" className={s.iconTools} />
+              Growth Mindset
+            </li>
+            <li>
+              <Image src={paw} alt="icon" className={s.iconTools} />
+              Teamwork
+            </li>
+            <li>
+              <Image src={paw} alt="icon" className={s.iconTools} />
+              Good communication
+            </li>
+            <li>
+              <Image src={paw} alt="icon" className={s.iconTools} />
+              Adaptivity and flexibility
+            </li>
+            <li>
+              <Image src={paw} alt="icon" className={s.iconTools} />
+              Responsibility
+            </li>
+          </ul>
+          <p> </p>
+        </div>
       </article>
       <Image src={cat} alt="cat" className={s.cat} />
       <Image src={v} alt="cat" className={s.v} />

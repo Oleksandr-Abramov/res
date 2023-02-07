@@ -9,13 +9,12 @@ const Experience = () => {
       <article className={s.article}>
         <p>experience</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, atque libero molestiae totam voluptate,
-          tempora veniam tenetur doloremque illo ducimus voluptatem dolore expedita vitae recusandae distinctio,
-          voluptatibus repellat assumenda? Labore facilis, sapiente vero illum totam nostrum? Et, itaque? Illum numquam
-          cum voluptas minus magni veniam assumenda in velit culpa saepe, vitae fuga aperiam, voluptate a ad placeat
-          ipsam dolores deserunt? Dolorum odit sint magnam quasi labore at eligendi, aspernatur, doloremque eveniet cum
-          possimus sit vero? Fugiat doloremque sunt neque. Beatae rem incidunt veniam? Voluptatibus velit blanditiis,
-          animi enim illum quod amet odio veniam ratione accusamus adipisci voluptates repellat. Sapiente, dolorum.
+          TEAM PROJECTS Movie search page Filmoteka (JavaScript): My responsibilities in group were creating of custom
+          pagination. link Financial accounting application Kapu$ta (React.js +Redux): My responsibilities in group were
+          creating of main section. link App for testing QA tester Pro Test (Node.js + MongoDB + React.js): My
+          responsibilities in group were creating of testing and result pages, and also Scrum. link (front), link (back)
+          OWN PROJECTS Landing page for WebStudio (HTML,SCSS): Adaptive Layout Landing by Mobile First Strategy. link
+          Phonebook application (React.js, Redux): React application with Redux Toolkit state management. link
         </p>
       </article>
       <Image src={cat} alt="cat" className={s.cat} />

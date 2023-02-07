@@ -5,18 +5,15 @@ import cat from "../../images/cats/cat-sit.gif";
 const About = () => {
   return (
     <section className={s.container} id="about">
-      <div className={s.articleWrapper}></div>
+      <h2>ABOUT ME</h2>
       <article className={s.article}>
-        <p>about</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ab eum quibusdam dignissimos perferendis labore
-          ullam officiis necessitatibus, corporis totam, vero iure aperiam! Laboriosam distinctio illo, quasi quod
-          possimus sequi dignissimos. Distinctio error, odio sed, facere dolorum aliquid expedita rem tenetur quibusdam
-          tempore eaque quae sapiente sequi quasi sit maxime repudiandae? Animi explicabo, earum perferendis corrupti
-          iusto ipsam ducimus ipsum eum itaque pariatur quisquam laudantium excepturi! Iste laudantium porro aliquid
-          magni, corrupti praesentium explicabo cumque eos, itaque provident alias enim officiis esse aspernatur?
-          Eveniet ullam impedit pariatur cupiditate architecto. Laudantium quisquam possimus consectetur, dolores at
-          aspernatur labore delectus iste? Deserunt?
+          I am a goal-oriented and self-motivated Full Stack developer. Looking for a job at the position frontend
+          developer (React). I am working with JS, React, Redux, Node.js, CSS/HTML, Sass preprocessor, crossBrowser and
+          adaptive markup skills. I also learn quicklly, and easily communicate with people. Believe my skills will be
+          useful to devote to product development. <br />
+          <br />I have put a lot of effort to make my skills in this resume true, and I am ready to make even more
+          efforts to improve these skills
         </p>
       </article>
       <Image src={cat} alt="cat" className={s.cat} />

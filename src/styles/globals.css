@@ -1,7 +1,7 @@
 :root {
   --background: #ffffff;
   --primary-title-dark: rgb(34, 34, 34);
-  --primary-title-white: rgb(210, 210, 210);
+  --primary-title-white: rgb(242, 242, 242);
 }
 
 * {
@@ -19,6 +19,8 @@ body {
   /* font-family: "Inter", "Montserrat", "Open Sans", sans-serif; */
   font-family: "Chakra Petch", sans-serif;
   font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
   box-sizing: border-box;
   margin: 0;
   scroll-behavior: smooth;
