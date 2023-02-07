@@ -1,6 +1,7 @@
 import s from "./Footer.module.css";
 import Image from "next/image";
 import mouse from "../../images/cats/mouse.gif";
+import dog from "../../images/cats/cat-and-dog.gif";
 
 const Footer = () => {
   return (
@@ -14,6 +15,7 @@ const Footer = () => {
         neque eius quos perspiciatis et magni fugit officiis veritatis, iusto explicabo, numquam magnam, qui quo.
       </p>
       <Image src={mouse} alt="cat" className={s.mouse} />
+      <Image src={dog} alt="cat" className={s.dog} />
     </footer>
   );
 };

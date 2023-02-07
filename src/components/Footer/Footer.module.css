@@ -29,3 +29,10 @@
   left: 658px;
   /* z-index: 0; */
 }
+
+.dog {
+  position: absolute;
+  top: 269px;
+  left: 658px;
+  /* z-index: 0; */
+}
