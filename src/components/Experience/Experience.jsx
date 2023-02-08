@@ -5,9 +5,8 @@ import cat from "../../images/cats/cat-sleep.gif";
 const Experience = () => {
   return (
     <section className={s.container} id="experience">
-      <div className={s.articleWrapper}></div>
+      <h2>EXPERIENCE</h2>
       <article className={s.article}>
-        <p>experience</p>
         <p>
           TEAM PROJECTS Movie search page Filmoteka (JavaScript): My responsibilities in group were creating of custom
           pagination. link Financial accounting application Kapu$ta (React.js +Redux): My responsibilities in group were

@@ -7,18 +7,26 @@
   padding: 95px 50px 20px 340px;
 }
 
-.articleWrapper {
-  width: 100%;
-  height: 100%;
-  background-color: #94312ce0;
-  filter: blur(15px);
+.container > h2 {
+  position: absolute;
+  top: 101px;
+  left: 113px;
+  color: var(--primary-title-dark);
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .article {
   position: absolute;
-  padding-right: 30px;
-  top: 100px;
-  left: 350px;
+  top: 80px;
+  left: 379px;
+  padding: 10px;
+  width: 495px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2), 0 16px 28px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
 }
 
 .cat {
