@@ -96,7 +96,7 @@ const Skills = () => {
           </ul>
         </div>
       </article>
-      <Image src={cat} alt="cat" className={s.cat} />
+      <Image src={cat} alt="cat" className={s.cat} unoptimized={true} />
       <Image src={v} alt="cat" className={s.v} />
       <Image src={h} alt="cat" className={s.h} />
     </section>

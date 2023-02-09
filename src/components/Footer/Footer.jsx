@@ -28,8 +28,8 @@ const Footer = () => {
         <li>Kyiv, Ukraine</li>
       </ul>
       <Form />
-      <Image src={mouse} alt="cat" className={s.mouse} />
-      <Image src={dog} alt="cat" className={s.dog} />
+      <Image src={mouse} alt="cat" className={s.mouse} unoptimized={true} />
+      <Image src={dog} alt="cat" className={s.dog} unoptimized={true} />
     </footer>
   );
 };

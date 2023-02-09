@@ -101,7 +101,7 @@ const Experience = () => {
           Phonebook application (React.js, Redux): React application with Redux Toolkit state management. link
         </p> */}
       </article>
-      <Image src={cat} alt="cat" className={s.cat} />
+      <Image src={cat} alt="cat" className={s.cat} unoptimized={true} />
     </section>
   );
 };

@@ -8,15 +8,20 @@ const About = () => {
       <h2>ABOUT ME</h2>
       <article className={s.article}>
         <p>
-          I am a goal-oriented and self-motivated Full Stack developer. Looking for a job at the position frontend
-          developer (React). I am working with JS, React, Redux, Node.js, CSS/HTML, Sass preprocessor, crossBrowser and
-          adaptive markup skills. I also learn quicklly, and easily communicate with people. Believe my skills will be
-          useful to devote to product development. <br />
-          <br />I have put a lot of effort to make my skills in this resume true, and I am ready to make even more
-          efforts to improve these skills
+          Hello! I am Oleksandr Abramov. <br />
+          <br />
+          During my career, I have already tried myself in many areas and finally found what I really like. And no,
+          it&apos;s not drawing or breeding cats, although I love them too. Web development and programming, that&apos;s
+          what I need! I am already doing this and plan to develop and grow.
+        </p>
+        <br />
+        <p>
+          I am looking for a job in a good team, where I could develop my skills and use them to perform the different
+          interesting tasks and bring value to your company. <br />
+          Below is information about my skills and projects.
         </p>
       </article>
-      <Image src={cat} alt="cat" className={s.cat} />
+      <Image src={cat} alt="cat" className={s.cat} unoptimized={true} />
     </section>
   );
 };

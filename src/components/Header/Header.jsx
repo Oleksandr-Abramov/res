@@ -43,7 +43,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <Image src={bird} alt="cat" className={s.bird} />
+      <Image src={bird} alt="cat" className={s.bird} unoptimized={true} />
       {showTopBtn && (
         // <div className="top-to-btm">
 
