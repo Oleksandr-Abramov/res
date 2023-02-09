@@ -16,8 +16,13 @@ const Footer = () => {
           <a href="mailto: abc@example.com">aleksander.abramov@gmail.com</a>
         </li>
         <li>
-          <a href="https://github.com/Oleksandr-Abramov">GitHub</a> /{" "}
-          <a href="https://www.linkedin.com/in/oleksandrabramov/">Linked In</a>
+          <a href="https://github.com/Oleksandr-Abramov" target="blank">
+            GitHub
+          </a>{" "}
+          /{" "}
+          <a href="https://www.linkedin.com/in/oleksandrabramov/" target="blank">
+            Linked In
+          </a>
         </li>
         <li></li>
         <li>Kyiv, Ukraine</li>
