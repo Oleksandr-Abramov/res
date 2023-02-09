@@ -45,7 +45,6 @@ const Form = () => {
           console.log("~ error", error);
         }
       );
-    console.log("~ form.current", form.current);
     handleResetForm();
   };
   const handleResetForm = () => {
@@ -62,6 +61,7 @@ const Form = () => {
           autoComplete="off"
           type="text"
           name="name"
+          maxlength="100"
           value={clientName}
           onChange={handleChangeForm}
         />

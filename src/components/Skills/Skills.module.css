@@ -58,8 +58,20 @@
 .hardSkills {
   width: 213px;
 }
+.hardSkills li {
+  display: flex;
+  align-items: center;
+}
+
+.lastList > li:last-child {
+  align-items: baseline;
+}
 .hardSkills > p {
   margin-bottom: 10px;
+}
+
+.hardSkills > p:nth-child(3) {
+  margin-top: 11px;
 }
 
 .iconTools {

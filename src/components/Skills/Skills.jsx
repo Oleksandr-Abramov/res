@@ -3,9 +3,7 @@ import Image from "next/image";
 import cat from "../../images/cats/cat-on-table.gif";
 import h from "../../images/window/rigel-h.webp";
 import v from "../../images/window/rigel-v.webp";
-import { tools, paw } from "../../images/icons";
-console.log("paw", paw);
-// import { paw, tools } from "../../images/icons/icons";
+import { tools, paw, earth } from "../../images/icons";
 
 const Skills = () => {
   return (
@@ -84,7 +82,18 @@ const Skills = () => {
               Responsibility
             </li>
           </ul>
-          <p> </p>
+          <p>LANGUAGES:</p>
+          <ul className={s.lastList}>
+            <li>
+              <Image src={earth} alt="icon" className={s.iconTools} />
+              Ukrainian - Native
+            </li>
+            <li>
+              <Image src={earth} alt="icon" className={s.iconTools} />
+              English - <br />
+              pre-Intermediate
+            </li>
+          </ul>
         </div>
       </article>
       <Image src={cat} alt="cat" className={s.cat} />

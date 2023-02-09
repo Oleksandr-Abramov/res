@@ -2,11 +2,18 @@ import Link from "next/link";
 import s from "./Header.module.css";
 import Image from "next/image";
 import bird from "../../images/cats/bird.gif";
+import { useRouter } from "next/router";
 
 const Header = () => {
+  const { basePath } = useRouter();
+
   return (
     <header className={s.container}>
-      <a href="../../public/Oleksandr_Abramov_Full_Stack_developer.pdf" download="CV" className={s.downloadBtn}>
+      <a
+        href={`${basePath}Oleksandr Abramov Full Stack developer.pdf`}
+        download="Oleksandr Abramov Full Stack developer.pdf"
+        className={s.downloadBtn}
+      >
         Download CV
       </a>
       <nav className={s.nav}>
@@ -18,7 +25,7 @@ const Header = () => {
             <Link href={"/#skills"}>Skills</Link>
           </li>
           <li>
-            <Link href={"/#experience"}>Experience</Link>
+            <Link href={"/#projects"}>Projects</Link>
           </li>
           <li>
             <Link href={"/#contacts"}>Contacts</Link>
