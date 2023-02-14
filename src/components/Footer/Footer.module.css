@@ -8,7 +8,6 @@
   margin: 0 auto;
   padding: 119px 726px 380px 325px;
   text-align: center;
-  /* outline: solid #00d8d8; */
   color: var(--primary-title-dark);
 }
 
@@ -16,12 +15,10 @@
   position: absolute;
   top: 146px;
   left: 604px;
-  /* z-index: 0; */
 }
 
 .dog {
   position: absolute;
   top: 108px;
   left: 560px;
-  /* z-index: 0; */
 }

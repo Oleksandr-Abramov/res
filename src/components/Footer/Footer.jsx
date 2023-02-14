@@ -7,7 +7,6 @@ import Form from "../Form/Form";
 const Footer = () => {
   return (
     <footer className={s.container} id="contacts">
-      {/* <p>contacts</p> */}
       <ul>
         <li>
           <a href="tel:0635484434">(063) 548-44-34</a>

@@ -1,4 +1,3 @@
-import Animation from "../Animation/Animation";
 import s from "./Layout.module.css";
 
 const Layout = ({ children }) => {
