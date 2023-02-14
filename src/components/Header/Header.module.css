@@ -3,12 +3,13 @@
   top: -100px; */
   position: relative;
   /* z-index: 1; */
-  height: 254px;
+  height: 190px;
   width: 1040px;
-  background-image: url("../../images/background/header.webp");
+  /* background-image: url("../../images/background/header.webp"); */
   margin: 0 auto;
-  padding: 150px 0 0;
+  padding: 130px 0 0;
   color: var(--primary-title-dark);
+  /* outline: solid #be4949; */
 }
 
 .list {
@@ -30,7 +31,7 @@
 
 .bird {
   position: absolute;
-  top: -1px;
+  top: 0px;
   left: 895px;
 
   /* z-index: 2; */
@@ -76,11 +77,11 @@
 
 .downloadBtn {
   position: absolute;
-  top: 13px;
-  left: 104px;
+  top: 56px;
+  left: 112px;
   font-size: 18px;
   font-weight: 700;
-  color: rgb(198, 0, 0);
+  color: rgb(255, 255, 255);
   animation: typing 4s steps(12) infinite;
   display: inline-block;
   overflow: hidden;

@@ -1,37 +1,42 @@
 .container {
   position: relative;
-  height: 322px;
-  width: 952px;
-  background-image: url("../../images/background/first-section.webp");
+  height: 390px;
+  width: 984px;
+  /* background-image: url("../../images/background/first-section.webp"); */
   margin: 0 auto;
-  padding: 83px 27px 51px 317px;
-  z-index: 10;
+  padding: 51px 38px 70px 0;
+  /* z-index: 10; */
+  /* outline: solid #494bbe; */
+  display: flex;
+  justify-content: end;
 }
 
 .container > h2 {
   position: absolute;
   top: 37px;
   left: 107px;
-  color: var(--primary-title-dark);
+  color: var(--primary-title-white);
   font-weight: 700;
   font-size: 18px;
 }
 
 .article {
-  position: absolute;
-  top: 37px;
-  left: 367px;
+  /* position: absolute; */
+  /* top: 37px;
+  left: 367px; */
   padding: 10px;
   width: 495px;
   justify-content: space-between;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2), 0 16px 28px rgba(0, 0, 0, 0.2);
-  text-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+  /* text-shadow: 0 0 12px rgba(0, 0, 0, 0.6); */
   backdrop-filter: blur(5px);
+  border-radius: 8px;
+  color: var(--primary-title-dark);
 }
 
 .cat {
   position: absolute;
-  top: 177px;
-  left: 60px;
+  top: 216px;
+  left: 49px;
   /* z-index: 0; */
 }

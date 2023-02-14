@@ -1,7 +1,7 @@
 :root {
   --background: #ffffff;
   --primary-title-dark: rgb(34, 34, 34);
-  --primary-title-white: rgb(242, 242, 242);
+  --primary-title-white: rgb(255, 255, 255);
 }
 
 * {
@@ -15,7 +15,6 @@ body {
   max-width: 100vw;
   /* overflow-x: hidden; */
   color: var(--primary-title-white);
-  background-color: var(--background);
   /* font-family: "Inter", "Montserrat", "Open Sans", sans-serif; */
   font-family: "Chakra Petch", sans-serif;
   font-size: 16px;
@@ -24,6 +23,8 @@ body {
   box-sizing: border-box;
   margin: 0;
   scroll-behavior: smooth;
+  background: rgb(90, 255, 111);
+  background: linear-gradient(0deg, rgba(90, 255, 111, 1) 0%, rgba(221, 250, 255, 1) 11%);
 }
 
 a {

@@ -14,7 +14,7 @@
   height: 20px;
   margin-right: 11px;
   margin-top: 15px;
-  color: #ffffff;
+  color: var(--primary-title-dark);
   font-size: 15px;
 }
 

@@ -1,39 +1,27 @@
 .container {
   position: relative;
-  height: 680px;
-  width: 1440px;
-  background-image: url("../../images/background/footer1.webp");
+  height: 507px;
+  width: 1280px;
+  /* background-image: url("../../images/background/footer1.webp"); */
   background-repeat: no-repeat;
   background-position: right;
   margin: 0 auto;
-  padding: 126px 760px 380px 404px;
+  padding: 119px 726px 380px 325px;
   text-align: center;
-}
-
-.articleWrapper {
-  width: 100%;
-  height: 100%;
-  background-color: #94312ce0;
-  filter: blur(15px);
-}
-
-.article {
-  position: absolute;
-  padding-right: 30px;
-  top: 50px;
-  left: 350px;
+  /* outline: solid #00d8d8; */
+  color: var(--primary-title-dark);
 }
 
 .mouse {
   position: absolute;
-  top: 269px;
-  left: 658px;
+  top: 146px;
+  left: 604px;
   /* z-index: 0; */
 }
 
 .dog {
   position: absolute;
-  top: 249px;
-  left: 680px;
+  top: 108px;
+  left: 560px;
   /* z-index: 0; */
 }

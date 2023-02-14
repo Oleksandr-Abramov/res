@@ -1,8 +1,9 @@
 import s from "./Skills.module.css";
 import Image from "next/image";
 import cat from "../../images/cats/cat-on-table.gif";
-import h from "../../images/window/rigel-h.webp";
-import v from "../../images/window/rigel-v.webp";
+import hl from "../../images/window/h-l.webp";
+import hr from "../../images/window/h-r.webp";
+import v from "../../images/window/v.webp";
 import { tools, paw, earth } from "../../images/icons";
 
 const Skills = () => {
@@ -97,8 +98,9 @@ const Skills = () => {
         </div>
       </article>
       <Image src={cat} alt="cat" className={s.cat} unoptimized={true} />
+      <Image src={hl} alt="cat" className={s.hl} />
+      <Image src={hr} alt="cat" className={s.hr} />
       <Image src={v} alt="cat" className={s.v} />
-      <Image src={h} alt="cat" className={s.h} />
     </section>
   );
 };

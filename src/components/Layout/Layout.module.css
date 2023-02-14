@@ -1,5 +1,17 @@
 .container {
-  width: 1440px;
+  width: 1280px;
   height: 100%;
   margin: 0 auto;
+  background-image: url(../../images/background/house.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.wrapper {
+  width: 100%;
+  background-image: url("../../images/icons/cloud.svg"), url("../../images/icons/cloud.svg"),
+    url("../../images/icons/cloud.svg"), url("../../images/icons/cloud.svg");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 12% 20%, 1% 1%, 93% 8%, 50% 1%;
 }
