@@ -23,11 +23,11 @@ const Experience = () => {
                   <p>- Next.js</p>
                 </li>
                 <li>
-                  <p>- Redux</p>
+                  <p>- Redux Toolkit</p>
                 </li>
-                <li>
+                {/* <li>
                   <p>- GraphQl</p>
-                </li>
+                </li> */}
               </ul>
             </li>
           </a>

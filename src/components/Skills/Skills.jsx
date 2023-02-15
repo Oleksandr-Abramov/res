@@ -4,7 +4,7 @@ import cat from "../../images/cats/cat-on-table.gif";
 import hl from "../../images/window/h-l.webp";
 import hr from "../../images/window/h-r.webp";
 import v from "../../images/window/v.webp";
-import { tools, paw, earth } from "../../images/icons";
+import { tools, paw, earth, circle } from "../../images/icons";
 
 const Skills = () => {
   return (
@@ -17,43 +17,43 @@ const Skills = () => {
           <p>TECH SKILLS:</p>
           <ul>
             <li>
-              <Image src={tools} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               HTML5, CSS3, SASS{" "}
             </li>
             <li>
-              <Image src={tools} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               Responsive Adaptive
             </li>
             <li>
-              <Image src={tools} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               GIT / GitHub
             </li>
             <li>
-              <Image src={tools} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               JavaScript
             </li>
             <li>
-              <Image src={tools} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               React, Next.js
             </li>
             <li>
-              <Image src={tools} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               Redux / Redux Toolkit
             </li>
             <li>
-              <Image src={tools} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               REST API
             </li>
             <li>
-              <Image src={tools} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               Node.js, Express
             </li>
             <li>
-              <Image src={tools} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               MongoDB, Mongoose
             </li>
             <li>
-              <Image src={tools} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               WebSockets, Figma
             </li>
           </ul>
@@ -63,34 +63,34 @@ const Skills = () => {
           <p>SOFT SKILLS:</p>
           <ul>
             <li>
-              <Image src={paw} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               Growth Mindset
             </li>
             <li>
-              <Image src={paw} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               Teamwork
             </li>
             <li>
-              <Image src={paw} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               Good communication
             </li>
             <li>
-              <Image src={paw} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               Adaptivity and flexibility
             </li>
             <li>
-              <Image src={paw} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               Responsibility
             </li>
           </ul>
           <p>LANGUAGES:</p>
           <ul className={s.lastList}>
             <li>
-              <Image src={earth} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               Ukrainian - Native
             </li>
             <li>
-              <Image src={earth} alt="icon" className={s.iconTools} />
+              <Image src={circle} alt="icon" className={s.iconTools} />
               English - <br />
               pre-Intermediate
             </li>
