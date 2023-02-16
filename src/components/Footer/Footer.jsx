@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className={s.container} id="contacts">
       <ul>
         <li>
-          <a href="tel:0635484434">(063) 548-44-34</a>
+          <a href="tel:0635484434">+38 (063) 548-44-34</a>
         </li>
         <li>
           <a href="mailto: abc@example.com">aleksander.abramov@gmail.com</a>
