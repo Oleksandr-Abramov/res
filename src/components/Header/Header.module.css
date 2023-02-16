@@ -67,7 +67,7 @@
 
 /* Styles for the content section */
 
-.downloadBtn {
+/* .downloadBtn {
   position: absolute;
   top: 56px;
   left: 112px;
@@ -94,11 +94,11 @@
   55%,
   65%,
   75% {
-    opacity: 1;
+    color: #fe0000;
   }
   60%,
   70% {
-    opacity: 0;
+    color: #fe0000;
   }
   80% {
     width: 100%;
@@ -116,5 +116,78 @@
   40%,
   60% {
     color: #fff;
+  }
+} */
+
+/* .downloadBtn {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 56px;
+  left: 106px;
+  font-size: 20px;
+  font-weight: 700;
+  animation: blur 1s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+} */
+
+/* 
+@keyframes blink {
+  25%,
+  75% {
+    color: transparent;
+  }
+  40%,
+  60% {
+    color: #fff;
+  }
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
+    0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
+    0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
+    0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
+  }
+} */
+
+.downloadBtnWrapper {
+  /* background-color: #2c0101; */
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 56px;
+  left: 106px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.downloadBtn {
+  margin: 1rem auto;
+  animation: neon 1.5s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 10px #ffffffa8, 0 0 20px #ffffffa8, 0 0 20px #ffffffa8, 0 0 20px #ffffffa8, 0 0 2px #ffffff,
+      2px 2px 2px #ffffff;
+    color: #ff0000;
+  }
+  50% {
+    text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b,
+      4px 4px 2px #40340a;
+    color: #ffffff;
+  }
+}
+
+.downloadBtn:hover {
+  animation: blur 0.7s infinite;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
+      0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
+      0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
   }
 }

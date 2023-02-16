@@ -20,13 +20,15 @@ const Header = () => {
   }, []);
   return (
     <header className={s.container}>
-      <a
-        href={`${basePath}Oleksandr Abramov Full Stack developer.pdf`}
-        download="Oleksandr Abramov Full Stack developer.pdf"
-        className={s.downloadBtn}
-      >
-        Download CV
-      </a>
+      <div className={s.downloadBtnWrapper}>
+        <a
+          href={`${basePath}Oleksandr Abramov Full Stack developer.pdf`}
+          download="Oleksandr Abramov Full Stack developer.pdf"
+          className={s.downloadBtn}
+        >
+          Download CV
+        </a>
+      </div>
       <nav className={s.nav}>
         <ul className={s.list}>
           <li>
