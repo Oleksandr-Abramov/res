@@ -21,4 +21,7 @@
     background-image: url(../../images/background/mobile.webp);
     background-size: cover;
   }
+  .wrapper {
+    background-image: none;
+  }
 }
