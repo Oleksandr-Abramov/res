@@ -91,8 +91,7 @@ const Skills = () => {
             </li>
             <li>
               <Image src={circle} alt="icon" className={s.iconTools} />
-              English - <br />
-              pre-Intermediate
+              English - pre-Intermediate
             </li>
           </ul>
         </div>

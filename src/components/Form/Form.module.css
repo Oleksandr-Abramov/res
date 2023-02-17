@@ -39,3 +39,9 @@
 .btn:disabled {
   cursor: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .form {
+    width: 300px;
+  }
+}

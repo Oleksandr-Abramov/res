@@ -86,20 +86,6 @@ const Experience = () => {
             </li>
           </a>
         </ul>
-
-        {/* <p>
-          TEAM PROJECTS <br />
-          Movie search page Filmoteka (JavaScript): My responsibilities in group were creating of custom pagination.{" "}
-          <br />
-          link Financial accounting application Kapu$ta (React.js +Redux): My responsibilities in group were creating of
-          main section. link <br />
-          App for testing QA tester Pro Test (Node.js + MongoDB + React.js): My responsibilities in group were creating
-          of testing and result pages, and also Scrum. link (front), link (back) <br />
-          OWN PROJECTS
-          <br />
-          Landing page for WebStudio (HTML,SCSS): Adaptive Layout Landing by Mobile First Strategy. link <br />
-          Phonebook application (React.js, Redux): React application with Redux Toolkit state management. link
-        </p> */}
       </article>
       <Image src={cat} alt="cat" className={s.cat} unoptimized={true} />
     </section>

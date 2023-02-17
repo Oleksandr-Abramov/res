@@ -7,6 +7,7 @@
   padding: 30px 87px 20px 340px;
   display: flex;
   justify-content: end;
+  outline: solid #9263ff;
 }
 
 .container > h2 {
@@ -87,4 +88,35 @@
 }
 .test {
   position: fixed;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 1024px;
+    width: 100%;
+    padding: 62px 83px 1px 74px;
+    justify-content: center;
+  }
+
+  .container > h2 {
+    top: 15px;
+    left: 285px;
+    font-size: 30px;
+  }
+
+  .article {
+    width: 600px;
+    height: 372px;
+  }
+
+  .imgContainer {
+    width: 285px;
+    height: 171px;
+  }
+  .cat {
+    top: 843px;
+    left: 336px;
+    width: 250px;
+    height: 170px;
+  }
 }

@@ -5,6 +5,7 @@
   /* background-image: url("../../images/background/left-section-double-window1.webp"); */
   margin: 0 auto;
   padding: 36px 0 0 30px;
+  outline: solid #555555;
 }
 
 .container > h2 {
@@ -80,4 +81,60 @@
   width: 8px;
   height: 8px;
   margin-right: 7px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 1420px;
+    width: 100%;
+    padding: 62px 0 0 76px;
+  }
+
+  .article {
+    width: 600px;
+    font-size: 29px;
+    display: block;
+  }
+
+  .container > h2 {
+    top: 13px;
+    left: 298px;
+    font-size: 30px;
+  }
+
+  .hardSkills {
+    width: 100%;
+  }
+
+  .hardSkills > p {
+    margin-top: 11px;
+  }
+
+  .cat {
+    top: 1143px;
+    left: 145px;
+    width: 428px;
+    height: 198px;
+  }
+
+  .hl {
+    top: 1167px;
+    left: 143px;
+    width: 194px;
+    height: 26px;
+  }
+
+  .hr {
+    top: 1167px;
+    left: 374px;
+    width: 202px;
+    height: 28px;
+  }
+
+  .v {
+    top: 1144px;
+    left: 334px;
+    width: 39px;
+    height: 203px;
+  }
 }

@@ -47,3 +47,9 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    background: rgba(221, 250, 255, 1);
+  }
+}

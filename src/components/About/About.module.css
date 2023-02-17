@@ -7,6 +7,7 @@
   padding: 51px 38px 70px 0;
   display: flex;
   justify-content: end;
+  outline: solid #fff314;
 }
 
 .container > h2 {
@@ -32,4 +33,31 @@
   position: absolute;
   top: 216px;
   left: 49px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 1246px;
+    width: 100%;
+    padding: 62px 0 0 65px;
+    display: block;
+  }
+
+  .article {
+    width: 600px;
+    font-size: 29px;
+  }
+
+  .cat {
+    top: 1039px;
+    left: 203px;
+    width: 240px;
+    height: 201px;
+  }
+
+  .container > h2 {
+    top: 13px;
+    left: 272px;
+    font-size: 30px;
+  }
 }
