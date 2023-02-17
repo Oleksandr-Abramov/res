@@ -6,7 +6,7 @@
   margin: 0 auto;
   padding: 130px 0 0;
   color: var(--primary-title-dark);
-  outline: solid #800e0b;
+  /* outline: solid #800e0b; */
 }
 
 .list {

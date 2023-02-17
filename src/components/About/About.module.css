@@ -7,7 +7,7 @@
   padding: 51px 38px 70px 0;
   display: flex;
   justify-content: end;
-  outline: solid #fff314;
+  /* outline: solid #fff314; */
 }
 
 .container > h2 {
